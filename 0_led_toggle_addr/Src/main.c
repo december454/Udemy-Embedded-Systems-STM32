@@ -9,6 +9,8 @@
  * with the NUCLEO-F412ZG board. The code was designed to use LED "LD1", which is typically assigned to PA5.
  * However, LD1 is assigned elsewhere on the F412ZG board. So, I decided to use LD2, which is assigned to
  * PB7. I have added additional constants and commented out the original code in the main method.
+ *
+ * Update: The LED now toggles on and off.
  */
 
 #define PERIPH_BASE 		(0x40000000UL)
@@ -65,7 +67,11 @@ int main(void) {
 		// GPIOA_OD_R |= LED_PIN;
 
 		// Set PB7 high. (Turn on blue LED)
-		GPIOB_OD_R |= BLUE_LED_PIN;
+		// GPIOB_OD_R |= BLUE_LED_PIN;
+
+		// Toggle PB7.
+		GPIOB_OD_R ^= BLUE_LED_PIN;
+		for (int i = 0; i < 500000; i++){}
 	}
 
 }

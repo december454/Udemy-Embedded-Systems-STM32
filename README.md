@@ -12,3 +12,4 @@ The Udemy course uses the STM32F411 (NUCLEO-F411RE) board, I will be using the S
 - [0_led_toggle_addr](https://github.com/december454/Udemy-Embedded-Systems-STM32/blob/main/0_led_toggle_addr/Src/main.c)
 - [1_led_toggle_addr_struct](https://github.com/december454/Udemy-Embedded-Systems-STM32/blob/main/1_led_toggle_addr_struct/Src/main.c)
 - [2_gpio_output](https://github.com/december454/Udemy-Embedded-Systems-STM32/blob/main/2_gpio_output/Src/main.c)
+- [3_gpio_bsrr](https://github.com/december454/Udemy-Embedded-Systems-STM32/blob/main/3_gpio_bsrr/Src/main.c)

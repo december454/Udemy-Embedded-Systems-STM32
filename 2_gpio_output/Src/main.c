@@ -1,0 +1,15 @@
+#include "stm32f4xx.h"
+
+
+/////////////////////////////////// Additional Constants ///////////////////////////////////
+#define GPIOBEN				(1U<<1)
+#define BLUE_LED_PIN		(1U<<7)
+/////////////////////////////////// Additional Constants End ///////////////////////////////
+
+
+int main (void){
+
+	while(1){
+
+	}
+}

@@ -1,0 +1,5 @@
+main.c:33:5:main	1
+main.c:42:6:uart2_tx_init	1
+main.c:74:6:uart2_write	2
+main.c:81:13:uart_set_baudrate	1
+main.c:85:17:compute_uart_bd	1
